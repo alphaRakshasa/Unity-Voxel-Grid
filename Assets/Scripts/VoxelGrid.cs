@@ -13,7 +13,7 @@ public class VoxelGrid : MonoBehaviour
     private bool[] voxels;
 
     private Material[] voxelMaterials;
-
+                                            // What is the purpose of this variable? 'size' was it planned to be something?
     public void Initialize (int resolution, float size)
     {
         this.resolution = resolution;
